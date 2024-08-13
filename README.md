@@ -24,7 +24,7 @@ Before running the script, $refdir (include bowtie, bowtie2 index, genome fasta,
 sh -x step1_mapping.sh $fq1 $fq2 $prefix $outdir > $log
 # eg. sh -x realdata_mapping_nortrim.sh fastq/SRR17235470_1.fastq.gz fastq/SRR17235470_2.fastq.gz SRR17235470 results_nortrim/SRR17235470 > results_nortrim/SRR17235470.log 2>results_nortrim/SRR17235470.err &
 ```
-### 2. identify long range splicing
+### 2. Identify long range splicing
 step2_quantify_circRNA_and_LR.sh is used to identify and quantify circRNA and long range splicing transcript, output *.uniq.ratio.psi.bed6+ file in circRatio directory.    
 Before running the script, the variable in "###input" and "###para" in step2_quantify_circRNA_and_LR.sh need to be replaced with your path. The script path in the addRatioPsi.sh need to be replaced,too.
 ```
