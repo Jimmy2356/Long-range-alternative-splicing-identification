@@ -31,6 +31,7 @@ Before running the script, addRatioPsi.sh, the variable in "###input" and "###pa
 sh -x step2_quantify_circRNA_and_LR.sh
 ```
 The output file will look like below, circ_ratio and psi are the expression of the circRNA and corresponding long range splicing transcript
+```
 #chr    start   end     circ_id backsplice_supp strand  left_junc       right_junc      max_juncNum     circ_ratio      psi     flank_juncNum   total_juncNum   label
 chr10   100013309       100016704       circ_1  11      -       100012225       100017406       70      0.135802        0.102   8       78      essup
 chr10   100013309       100017921       circ_2  24      -       100012225       100018765       81      0.228571        0.19    19      100     essup
@@ -38,5 +39,6 @@ chr10   100013309       100020884       circ_3  24      -       100012225       
 chr10   100152188       100152840       circ_4  24      -       100150839       100154952       13      0.648649        0.566   17      30      essup
 chr10   101439017       101439632       circ_5  7       +       101421385       101445548       46      0.132075        0.22    13      59      essup
 chr10   101507013       101507147       circ_6  5       +       101503829       101510125       20      0.2     0.13    3       23      essup
+```
 
 
