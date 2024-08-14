@@ -1,7 +1,7 @@
 # Long-range-alternative-splicing-identification
 ## Requirement
-### Software
-Recommond to install these software using conda, ensure this tools are in the environment path, else please replace the full path of the tools in the step1_mapping.sh
+### 1. Software
+Recommend to install these software using conda, ensure this tools are in the environment path, else please replace the full path of the tools in the step1_mapping.sh
 1. python 2.7
 2. Tophat v2.1.0
 3. bowtie v2.2.5
@@ -9,7 +9,7 @@ Recommond to install these software using conda, ensure this tools are in the en
 5. bedtools bamtofastq
 6. perl bioperl (Bio/DB/Fasta.pm)
 7. samtools v1.17
-### File
+### 2. File
 1. Junction file for mapping with tophat. This step is to generate junction database for tophat -j option while mapping
 ```
 perl script/create_junc_gpe.pl --outdir=ref/ --annotation=ref/Homo_sapiens.GRCh38.103.gpe 
